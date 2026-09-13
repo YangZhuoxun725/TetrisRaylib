@@ -1,0 +1,3 @@
+[submodule "Tetris/vendor/raylib"]
+	path = Tetris/vendor/raylib
+	url = https://github.com/YangZhuoxun725/raylib.git

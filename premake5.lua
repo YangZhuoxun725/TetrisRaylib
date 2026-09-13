@@ -12,6 +12,9 @@ workspace "TetrisRaylib"
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 IncludeDir = {}
+IncludeDir["raylib"] = "Tetris/vendor/raylib/src"
+
+include "Tetris/vendor/raylib"
 
 project "Tetris"
     location "Tetris"
@@ -31,12 +34,13 @@ project "Tetris"
 
     includedirs
     {
-        "%{prj.name}/src"
+        "%{prj.name}/src",
+        "%{IncludeDir.raylib}"
     }
 
     links
     {
-
+        "raylib"
     }
 
     filter "system:windows"
