@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "D:\\C++\\TetrisRaylib\\Tetris\\..\\bin-int\\Debug-windows-x86_64\\Tetris\\main.obj",
+            "outputs": [
+                "D:\\C++\\TetrisRaylib\\Tetris\\..\\bin-int\\Debug-windows-x86_64\\Tetris\\main.cpp.obj.dt.module.json",
+                "D:\\C++\\TetrisRaylib\\Tetris\\..\\bin-int\\Debug-windows-x86_64\\Tetris\\main.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
